@@ -1,0 +1,92 @@
+.container
+	{
+		max-width: 500px;
+		border: outset 2px #aaa;
+		margin: 10px;
+		background-color: #ccc;
+		font-family: Arial, sans-serif;
+	}
+
+h1
+	{
+		text-align: center;
+		font-family: 'Times New Roman', Arial, sans-serif;
+		font-size: 40px;
+	}
+
+.row
+	{
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+
+label
+	{
+		display: block;
+		margin-bottom: 5px;
+	}
+
+fieldset
+	{
+		margin-top: 20px;
+	}
+
+input[type=text], input[type=email], textarea
+	{
+		width: 92%;
+		background-color: #eee;
+		font-size: 14px;
+		padding: 5px;
+		border: inset 2px #bbb;
+	}
+
+.sm
+	{
+		border: solid 1px #aaa;
+		border-radius: 5px;
+		text-align: center;
+		padding-top: 10px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		margin-top: 2px;
+		margin-right: 2px;
+		margin-bottom: 2px;
+		margin-left: 2px;
+	}
+
+input[type=checkbox]
+	{
+		margin-left: 5px;
+	}
+
+.etoile
+	{
+		color: red;
+	}
+
+.btn-custom
+	{
+		background-color: hsl(86, 79%, 44%) !important;
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#daf6b5", endColorstr="#7cc817");
+		background-image: -khtml-gradient(linear, left top, left bottom, from(#daf6b5), to(#7cc817));
+		background-image: -moz-linear-gradient(top, #daf6b5, #7cc817);
+		background-image: -ms-linear-gradient(top, #daf6b5, #7cc817);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #daf6b5), color-stop(100%, #7cc817));
+		background-image: -webkit-linear-gradient(top, #daf6b5, #7cc817);
+		background-image: -o-linear-gradient(top, #daf6b5, #7cc817);
+		background-image: linear-gradient(#daf6b5, #7cc817);
+		border-color: #7cc817 #7cc817 hsl(86, 79%, 34%);
+		color: #333 !important;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.66);
+		-webkit-font-smoothing: antialiased;
+		border-radius: 5px;
+		padding: 10px;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+footer
+{
+	text-align: center;
+}	

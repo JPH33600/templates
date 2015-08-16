@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulaire de Contact</title>
+        <meta name="description" content="Formulaire de Contact par JPH33600">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/contact.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+<body>
+
+	<div class="container">
+		
+		<h1>Formulaire de Contact</h1>
+
+		<form action="sent.php" method="POST">
+			
+			<fieldset>
+				<legend>Identité</legend>
+
+				<div class="row">
+					<label for="nom">NOM <i class="etoile">*</i></label>
+					<input type="text" name="nom" id="nom" placeholder="Ex: BLACHAS" maxlength="50" required autofocus/>
+				</div>	
+
+				<div class="row">
+					<label for="prenom">Prénom <i class="etoile">*</i></label>
+					<input type="text" name="prenom" id="nom" placeholder="Ex: Jérôme" maxlength="50" required/>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Contact</legend>
+
+				<div class="row">
+					<label for="email">Adresse mail <i class="etoile">*</i></label>
+					<input type="email" name="email" id="email" placeholder="Ex: maboite@mail.fr" required/>
+				</div>
+
+				<div class="row">
+					<label for="phone">Numéro de téléphone</label>
+					<input type="text" name="phone" id="phone" placeholder="Ex: 01.02.03.04.05" maxlength="14"/>
+				</div>
+
+				<div class="row">
+					<label>Réseaux Sociaux</label>
+						<div class="sm col-xs-2">
+							<label class="fa fa-twitter fa-2x" for="twitter" title="Twitter"></label>
+							<input type="checkbox" id="twitter" name="twitter"/>
+						</div>
+						<div class="sm col-xs-2">
+							<label class="fa fa-facebook fa-2x" for="facebook" title="Facebook"></label>
+							<input type="checkbox" id="facebook" name="facebook"/>
+						</div>
+						<div class="sm col-xs-2">
+							<label class="fa fa-google-plus fa-2x" for="google-plus" title="Google+"></label>
+							<input type="checkbox" id="google-plus" name="google-plus"/>
+						</div>
+						<div class="sm col-xs-2">
+							<label class="fa fa-linkedin fa-2x" for="linkedin" title="Linkedin"></label>
+							<input type="checkbox" id="linkedin" name="linkedin"/>
+						</div>
+						<div class="sm col-xs-2">
+							<label class="fa fa-pinterest fa-2x" for="pinterest" title="Pinterest"></label>
+							<input type="checkbox" id="pinterest" name="pinterest"/>
+						</div>
+						<div class="sm col-xs-2">
+							<label class="fa fa-instagram fa-2x" for="instagram" title="Instagram"></label>
+							<input type="checkbox" id="instagram" name="instagram"/>
+						</div>						
+				</div>				
+			</fieldset>
+
+			<fieldset>
+				<legend>Adresse</legend>
+
+				<div class="row">
+					<label for="rue">Numéro / voie</label>
+					<input type="text" name="rue" id="rue" placeholder="Ex: 13 rue du Bonheur"/>
+				</div>	
+
+				<div class="row">
+					<label for="ville">Ville</label>
+					<input type="text" name="ville" id="ville" placeholder="Ex: Pessac"/>
+				</div>
+
+				<div class="row">
+					<label for="codepostal">Code Postal</label>
+					<input type="text" name="codepostal" id="codepostal" placeholder="Ex: 33600"/>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Message</legend>
+				<div class="row">
+					<textarea name="message" id="message" placeholder="Taper ici votre message." rows="8" cols="58"></textarea>
+				</div>
+			</fieldset>
+
+
+			<footer><input type="submit" class="btn-custom"/></footer>
+			
+
+		</form>
+	</div>
+
+</body>
+</html>
