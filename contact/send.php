@@ -17,3 +17,4 @@ if (isset($_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['message']))
 			}
 
 	}
+?>
